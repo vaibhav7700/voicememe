@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/black">
+
+
+        <TextView
+            android:id="@+id/tv_mediaName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Media Name"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/iv_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/play"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:id="@+id/iv_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/baseline_pause_circle_24"
+            android:visibility="gone"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white"
+
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
